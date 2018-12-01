@@ -34,9 +34,6 @@ body {
     text-align: center;
     padding: 25px;
     border-radius: 25px;
-}
-
-.card > * {
     color: black;
 }
 
