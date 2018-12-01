@@ -5,6 +5,8 @@
     <title>Ad Paws</title>
 </head>
 <body>
-<a href="javascript:alert('Bookmarklet code goes here.')">Drag Me!</a>
+<a href="javascript:document.querySelectorAll('iframe').forEach(function(element) {
+	element.src = 'https://placekitten.com/' + element.width + '/'  + element.height;
+});">Drag Me!</a>
 </body>
 </html>
