@@ -1,36 +1,57 @@
 body {
-    animation: colorcycle 40s infinite;
+    animation: colorcycle 40s infinite ease;
+    font-family: "Comic Sans MS", sans-serif;
 }
 
 @keyframes colorcycle {
     0% {
         background: red;
+        color: white;
     }
     25% {
         background: yellow;
+        color: black;
     }
     50% {
         background: blue;
+        color: white;
     }
     75% {
         background: green;
+        color: white;
     }
     100% {
         background: red;
+        color: white;
     }
 }
 
 .card {
     background-color: white;
-    width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     margin: 50px auto 50px auto;
     box-shadow: 2px 2px 2px black;
     text-align: center;
     padding: 25px;
-    font-family: Comic Sans MS;
+    border-radius: 25px;
+}
+
+.card > * {
+    color: black;
 }
 
 .button {
+    padding: 25px;
+    margin: 25px;
+    box-shadow: 2px 2px 2px black;
+    animation: colorcycle 40s infinite;
+    border-radius: 25px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+}
 
+.left {
+    text-align: left;
 }
