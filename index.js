@@ -12,10 +12,10 @@ function update() {
     y += vel_y;
     x += vel_x;
 
-    if (x + 200 >= window.innerWidth || x <= 0) {
+    if (x + 208 >= window.innerWidth || x <= 0) {
         vel_x = -vel_x;
     }
-    if (y + 200 >= window.innerHeight) {
+    if (y + 252 >= window.innerHeight) {
         vel_y = -(vel_y * 0.9);
         y -= 2;
     }
