@@ -1,5 +1,5 @@
 body {
-    animation: colorcycle 40s;
+    animation: colorcycle 40s infinite;
 }
 
 @keyframes colorcycle {
@@ -28,4 +28,5 @@ body {
     box-shadow: 2px 2px 2px black;
     text-align: center;
     padding: 25px;
+    font-family: Comic Sans MS;
 }
