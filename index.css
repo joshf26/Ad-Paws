@@ -1,0 +1,31 @@
+body {
+    animation: colorcycle 40s;
+}
+
+@keyframes colorcycle {
+    0% {
+        background: red;
+    }
+    25% {
+        background: yellow;
+    }
+    50% {
+        background: blue;
+    }
+    75% {
+        background: green;
+    }
+    100% {
+        background: red;
+    }
+}
+
+.card {
+    background-color: white;
+    width: 100%;
+    max-width: 500px;
+    margin: 50px auto 50px auto;
+    box-shadow: 2px 2px 2px black;
+    text-align: center;
+    padding: 25px;
+}

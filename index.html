@@ -2,11 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+
     <title>Ad Paws</title>
 </head>
 <body>
-<a href="javascript:document.querySelectorAll('iframe').forEach(function(element) {
-	element.src = 'https://placekitten.com/' + element.width + '/'  + element.height;
-});">Drag Me!</a>
+
+<div class="card">
+    <h1>Ad Paws</h1>
+    <a href="javascript:document.querySelectorAll('iframe').forEach(function(element) {
+        element.src = 'https://placekitten.com/' + element.width + '/'  + element.height;
+    });">Drag Me!</a>
+</div>
+
+<script src="index.js"></script>
 </body>
 </html>
