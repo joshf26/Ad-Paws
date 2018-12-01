@@ -26,24 +26,6 @@ body {
     }
 }
 
-@keyframes fly {
-    0% {
-        left: 0;
-    }
-    100% {
-        left: 100%;
-    }
-
-
-}
-
-.flying-cat {
-    animation: fly 15s infinite linear;
-    position: fixed;
-    top: 50px;
-    z-index: -1;
-}
-
 .card {
     background-color: white;
     max-width: 400px;
@@ -69,4 +51,9 @@ body {
 
 .left {
     text-align: left;
+}
+
+#flying-cat {
+    position: fixed;
+    z-index: -1;
 }
