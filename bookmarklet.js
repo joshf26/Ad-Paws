@@ -1,3 +1,3 @@
 document.querySelectorAll('iframe').forEach(function(element) {
-	element.src = 'https://joshfrankl.in/ad-paws/ad-replacement.html';
+	element.src = 'https://joshf26.github.io/Ad-Paws/ad-replacement.html';
 });
