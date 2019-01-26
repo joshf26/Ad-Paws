@@ -1,6 +1,6 @@
 # Ad Paws
 
-Put the ads on Paws with the world's cutest ad blocker.
+Put the ads on paws with the world's cutest ad blocker.
 
 Our submission for Local Hack Day 2018
 
