@@ -8,5 +8,5 @@ Team Members: Joshua Franklin and Tiffany Phan
 
 *Winner of the "Most Random Hack" prize!*
 
-Check it out here: http://adpaws.tk
+Check it out here: https://joshf26.github.io/Ad-Paws/
 Devpost: https://devpost.com/software/ad-paws-s5xemd
