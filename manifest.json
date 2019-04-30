@@ -1,0 +1,25 @@
+{
+    "name": "Ad Paws",
+    "version": "1.0",
+    "description": "Put the ads on paws with the world's cutest ad blocker.",
+    "author": "Joshua Franklin, Tiffany Phan",
+
+     "icons": {
+         "16": "cat.png",
+         "32": "cat.png",
+         "48": "cat.png"
+    },
+
+    "content_scripts": [
+      {
+        "matches":
+        [
+            "<all_urls>"
+        ],
+        "js":["bookmarklet.js"]
+      }
+    ],
+
+    "permissions": ["activeTab", "tabs"],
+    "manifest_version": 2
+}
